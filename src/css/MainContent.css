@@ -45,7 +45,7 @@
     display: inline-block;
     order: 2;
     position: relative;
-    right: -120px;
+    /* right: -120px; */
   }
   .main-content .illustration {
     display: none;
