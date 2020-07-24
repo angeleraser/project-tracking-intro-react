@@ -1,0 +1,8 @@
+:root {
+  --primary-red: hsl(0, 100%, 68%);
+  --dark-blue: hsl(230, 29%, 20%);
+  --dark-gray-blue: hsl(230, 11%, 40%);
+  --gray-blue: hsl(231, 7%, 65%);
+  --light-gray-blue: hsl(207, 33%, 95%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap");

@@ -1,0 +1,20 @@
+.cta-btn {
+  text-transform: uppercase;
+  width: 155px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  color: var(--light-gray-blue);
+  font-weight: 700;
+  font-family: "Barlow Condensed", sans-serif;
+  border-radius: 5px;
+  align-items: center;
+  background-color: var(--primary-red);
+  cursor: pointer;
+}
+.cta-btn:hover{
+  background-color:  hsl(0, 100%, 75%);
+}

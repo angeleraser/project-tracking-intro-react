@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import Header from "./components/Header/Header";
+import MainContent from "./components/Article/MainContent";
+// import NavBar from "./components/Header/NavBar";\
+import "../src/css/index.css";
+const ROOT = document.getElementById("root");
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const ContentWrapper = () => {
+  return (
+    <div className="content-wrapper">
+      <div className="bg-pattern"></div>
+      <Header />
+      <MainContent />
+    </div>
+  );
+};
+ReactDOM.render(<ContentWrapper />, ROOT);
